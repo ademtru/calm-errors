@@ -1,0 +1,98 @@
+{
+    "name": "calmerrors",
+    "displayName": "CalmErrors",
+    "description": "Translates compiler and runtime errors into clear, calm, human-friendly explanations",
+    "version": "0.1.0",
+    "publisher": "calmerrors",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/calmerrors/calmerrors.git"
+    },
+    "bugs": {
+        "url": "https://github.com/calmerrors/calmerrors/issues"
+    },
+    "homepage": "https://github.com/calmerrors/calmerrors#readme",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Linters",
+        "Education"
+    ],
+    "keywords": [
+        "errors",
+        "diagnostics",
+        "learning",
+        "explanations"
+    ],
+    "activationEvents": [
+        "onLanguage:typescript",
+        "onLanguage:javascript",
+        "onLanguage:java"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "calmerrors.explainError",
+                "title": "CalmErrors: Explain This Error"
+            },
+            {
+                "command": "calmerrors.toggleReassurance",
+                "title": "CalmErrors: Toggle Emotional Reassurance"
+            }
+        ],
+        "configuration": {
+            "title": "CalmErrors",
+            "properties": {
+                "calmerrors.enableReassurance": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Show calm, reassuring messages with explanations"
+                },
+                "calmerrors.verbosity": {
+                    "type": "string",
+                    "enum": [
+                        "short",
+                        "detailed"
+                    ],
+                    "default": "detailed",
+                    "description": "Level of detail in explanations"
+                },
+                "calmerrors.enabledLanguages": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "default": [
+                        "typescript",
+                        "javascript",
+                        "java"
+                    ],
+                    "description": "Languages to provide error explanations for"
+                },
+                "calmerrors.experimentalAI": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Enable experimental AI-assisted explanations (opt-in)"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "lint": "eslint src --ext ts"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.85.0",
+        "@types/node": "^20.x",
+        "@typescript-eslint/eslint-plugin": "^6.15.0",
+        "@typescript-eslint/parser": "^6.15.0",
+        "eslint": "^8.56.0",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {}
+}
