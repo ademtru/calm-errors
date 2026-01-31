@@ -3,8 +3,8 @@
 ## Setup
 
 ```bash
-git clone https://github.com/calmerrors/calmerrors.git
-cd calmerrors
+git clone https://github.com/YOUR_USERNAME/calm-errors.git
+cd calm-errors
 npm install
 ```
 

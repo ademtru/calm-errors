@@ -67,7 +67,7 @@ Found an explanation that's unclear or could be better?
 
 Found a bug or an error that's not explained well?
 
-[Open an issue](https://github.com/calmerrors/calmerrors/issues) with:
+[Open an issue](https://github.com/YOUR_USERNAME/calm-errors/issues) with:
 
 - The error message (original)
 - What language you're using
@@ -78,7 +78,7 @@ Found a bug or an error that's not explained well?
 
 ```bash
 # Clone the repo
-git clone https://github.com/calmerrors/calmerrors.git
+git clone https://github.com/YOUR_USERNAME/calm-errors.git
 cd calmerrors
 
 # Install dependencies
@@ -189,7 +189,7 @@ When writing error explanations:
 
 Not sure about something? Have an idea you want to discuss first?
 
-- Open a [discussion](https://github.com/calmerrors/calmerrors/discussions)
+- Open a [discussion](https://github.com/YOUR_USERNAME/calm-errors/discussions)
 - Comment on an existing issue
 - Reach out to maintainers
 

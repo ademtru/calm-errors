@@ -1,17 +1,17 @@
 {
-    "name": "calmerrors",
+    "name": "calm-errors",
     "displayName": "CalmErrors",
     "description": "Translates compiler and runtime errors into clear, calm, human-friendly explanations",
     "version": "0.1.0",
     "publisher": "calmerrors",
     "repository": {
         "type": "git",
-        "url": "https://github.com/calmerrors/calmerrors.git"
+        "url": "https://github.com/YOUR_USERNAME/calm-errors.git"
     },
     "bugs": {
-        "url": "https://github.com/calmerrors/calmerrors/issues"
+        "url": "https://github.com/YOUR_USERNAME/calm-errors/issues"
     },
-    "homepage": "https://github.com/calmerrors/calmerrors#readme",
+    "homepage": "https://github.com/YOUR_USERNAME/calm-errors#readme",
     "engines": {
         "vscode": "^1.85.0"
     },

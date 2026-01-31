@@ -122,8 +122,8 @@ Want to contribute or customize? Here's how to set up:
 
 ```bash
 # Clone the repository
-git clone https://github.com/calmerrors/calmerrors.git
-cd calmerrors
+git clone https://github.com/YOUR_USERNAME/calm-errors.git
+cd calm-errors
 
 # Install dependencies
 npm install
@@ -197,4 +197,4 @@ Inspired by the frustration of cryptic compiler errors and the belief that techn
 
 **Made with ❤️ for developers by developers**
 
-[Report Issue](https://github.com/calmerrors/calmerrors/issues) • [Request Feature](https://github.com/calmerrors/calmerrors/issues) • [Contribute](CONTRIBUTING.md)
+[Report Issue](https://github.com/YOUR_USERNAME/calm-errors/issues) • [Request Feature](https://github.com/YOUR_USERNAME/calm-errors/issues) • [Contribute](CONTRIBUTING.md)
