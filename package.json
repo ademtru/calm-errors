@@ -3,15 +3,15 @@
     "displayName": "CalmErrors",
     "description": "Translates compiler and runtime errors into clear, calm, human-friendly explanations",
     "version": "0.1.0",
-    "publisher": "calmerrors",
+    "publisher": "ademtru",
     "repository": {
         "type": "git",
-        "url": "https://github.com/YOUR_USERNAME/calm-errors.git"
+        "url": "https://github.com/ademtru/calm-errors.git"
     },
     "bugs": {
-        "url": "https://github.com/YOUR_USERNAME/calm-errors/issues"
+        "url": "https://github.com/ademtru/calm-errors/issues"
     },
-    "homepage": "https://github.com/YOUR_USERNAME/calm-errors#readme",
+    "homepage": "https://github.com/ademtru/calm-errors#readme",
     "engines": {
         "vscode": "^1.85.0"
     },
